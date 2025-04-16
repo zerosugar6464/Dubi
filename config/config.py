@@ -23,7 +23,7 @@ API_HASH = getenv("API_HASH", "15ce514f4f3fcea70d7a49dc5064b839")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "7563580567:AAHdItwB78m3OBWJ8SdbfpiRv5TWQMO0h7k")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:DLArCT171SF9wRKJ@alexsoza.xpoqv.mongodb.net/?retryWrites=true&w=majority&appName=Alexsoza")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
@@ -41,23 +41,23 @@ BOT_ID = getenv("BOT_ID", "7563580567")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/zerosugar6464/Dubi")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/saymen930/Alexa")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_team_kumsal")
 
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/kumsalmuzikk")
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "3400"))
 
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
 
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "False")
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False")
 
@@ -106,11 +106,11 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://ibb.co/YFD02YDY"
+    "START_IMG_URL", "https://ibb.co/G4DPbZTP"
 )
 
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://ibb.co/YFD02YDY"
+    "PING_IMG_URL", "https://ibb.co/G4DPbZTP"
 )
 
 PLAYLIST_IMG_URL = getenv(
