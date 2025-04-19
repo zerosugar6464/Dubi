@@ -45,7 +45,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/saymen930/Alexa")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_team_kumsal")
 
