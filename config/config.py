@@ -18,10 +18,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "29772838"))
-API_HASH = getenv("API_HASH", "15ce514f4f3fcea70d7a49dc5064b839")
+API_ID = int(getenv("API_ID", "20824282"))
+API_HASH = getenv("API_HASH", "5c49d99b5bb9e41c9b8ada4f826989ef")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7563580567:AAHdItwB78m3OBWJ8SdbfpiRv5TWQMO0h7k")
+BOT_TOKEN = getenv("BOT_TOKEN", "7336757348:AAGW8yt7dNW50odjiUDNhrKtQ32zSMbC2tM")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:DLArCT171SF9wRKJ@alexsoza.xpoqv.mongodb.net/?retryWrites=true&w=majority&appName=Alexsoza")
 
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002065943011"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002629977112"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "kumsal")
 
@@ -37,7 +37,7 @@ OWNER_ID = int(getenv("OWNER_ID", "7268753735"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "7563580567")
+BOT_ID = getenv("BOT_ID", "7336757348")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -67,7 +67,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/kumsalfed6301/Kumsal-muzik-bot")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Mehmetbeydiyceksiniz63/KumsalXmusic-2")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 
